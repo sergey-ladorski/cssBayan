@@ -6,3 +6,8 @@
   color: var(--color-dark);
   transition: all 0.5s;
 }
+
+.tab__content:hover {
+  padding: 1em;
+  max-height: 100vh;
+}

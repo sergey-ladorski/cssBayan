@@ -8,6 +8,7 @@
   transition: all 0.5s ease;
 }
 
+.tab__label:has(+ .tab__content:hover) > .tab__icon,
 .tab__label:has(> .tab__input:checked) > .tab__icon,
 .tab__label:has(> .tab__input:hover) .tab__icon {
   transform: rotate(90deg);
