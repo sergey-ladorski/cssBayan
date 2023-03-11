@@ -14,5 +14,5 @@
 
 .tab__content:hover {
   padding: 1em;
-  max-height: 100vh;
+  max-height: 15em;
 }
