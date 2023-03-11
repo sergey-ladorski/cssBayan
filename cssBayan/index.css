@@ -16,5 +16,6 @@
 @import "./styles/tab/tab__icon.css";
 @import "./styles/tab/tab__input.css";
 @import "./styles/tab/tab__content.css";
+@import "./styles/tab/tab__image.css";
 /* footer */
 @import "./styles/footer/footer.css";
