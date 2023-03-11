@@ -1,4 +1,5 @@
 .tab__icon {
+  padding: 1em;
   width: 1em;
   height: 1em;
   background: url(../../assets/images/right-arrow.png);
@@ -8,7 +9,7 @@
   transition: all 0.5s ease;
 }
 
-.tab__label:has(+ .tab__content:hover) > .tab__icon,
+.tab__label:has(> .tab__content:hover) > .tab__icon,
 .tab__label:has(> .tab__input:checked) > .tab__icon,
 .tab__label:has(> .tab__input:hover) .tab__icon {
   transform: rotate(90deg);

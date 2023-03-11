@@ -4,13 +4,13 @@
   clip-path: polygon(0 0);
 }
 /* checked or hover*/
-.tab__label:has(> .tab__input:checked),
+/* .tab__label:has(> .tab__input:checked),
 .tab__label:has(> .tab__input:hover) {
   background: var(--color-dark);
-}
+} */
 
-.tab__label:has(> .tab__input:checked) + .tab__content,
-.tab__label:has(> .tab__input:hover) + .tab__content {
+.tab__input:checked + .tab__content,
+.tab__input:hover + .tab__content {
   padding: 1em;
   max-height: 100vh;
 }

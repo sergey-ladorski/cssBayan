@@ -1,0 +1,39 @@
+.footer {
+  padding: 2em;
+  flex-shrink: 0;
+  width: 90vw;
+  background-color: var(--color-dark);
+  box-sizing: border-box;
+  color: var(--color-light);
+  border-radius: 0.5em 0.5em 0 0;
+  box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.footer__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__link {
+  margin: 0;
+  grid-column-start: 1;
+  color: var(--color-light);
+  text-decoration: none;
+  justify-self: start;
+}
+
+.footer__link:hover {
+  color: var(--color-highlight);
+}
+
+.footer__year {
+  margin: 0;
+  justify-self: center;
+}
+
+.footer__copytight {
+  margin: 0;
+  justify-self: end;
+}
