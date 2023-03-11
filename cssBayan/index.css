@@ -1,2 +1,14 @@
 /* vendor */
 @import "./vendor/normalize.css";
+/* root */
+@import "./styles/root.css";
+/* page */
+@import "./styles/page/page.css";
+@import "./styles/page/page__title.css";
+/* tabs */
+@import "./styles/tab/tab-list.css";
+@import "./styles/tab/tab.css";
+@import "./styles/tab/tab__label.css";
+@import "./styles/tab/tab__icon.css";
+@import "./styles/tab/tab__input.css";
+@import "./styles/tab/tab__content.css";

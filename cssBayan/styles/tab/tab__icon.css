@@ -1,0 +1,14 @@
+.tab__icon {
+  width: 1em;
+  height: 1em;
+  background: url(../../assets/images/right-arrow.png);
+  background-position: center;
+  background-size: 1em;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+}
+
+.tab__label:has(> .tab__input:checked) > .tab__icon,
+.tab__label:has(> .tab__input:hover) .tab__icon {
+  transform: rotate(90deg);
+}

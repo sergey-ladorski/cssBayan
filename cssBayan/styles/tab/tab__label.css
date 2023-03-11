@@ -1,0 +1,14 @@
+.tab__label {
+  padding: 1em;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3em;
+  gap: 0 1em;
+  background: var(--color-dark);
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.tab__label:hover {
+  background: var(--color-dark);
+}

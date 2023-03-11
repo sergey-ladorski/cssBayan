@@ -1,0 +1,8 @@
+.tab__content {
+  padding: 0 1em;
+  max-height: 0;
+  background: white;
+  font-size: 1.25em;
+  color: var(--color-dark);
+  transition: all 0.5s;
+}
