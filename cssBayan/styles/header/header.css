@@ -8,3 +8,10 @@
   overflow: hidden;
   color: var(--color-light);
 }
+
+@media screen and (max-width: 1200px) {
+  .header {
+    width: 100%;
+    border-radius: 0;
+  }
+}

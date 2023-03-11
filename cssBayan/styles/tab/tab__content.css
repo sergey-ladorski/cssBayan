@@ -1,9 +1,7 @@
 .tab__content {
-  padding: 0 1em;
   max-height: 0;
   display: flex;
   background: white;
-  font-size: 1.25em;
   color: var(--color-dark);
   transition: all 0.5s ease;
   grid-row-start: 2;
@@ -13,6 +11,16 @@
 }
 
 .tab__content:hover {
-  padding: 1em;
   max-height: 15em;
+}
+
+@media screen and (max-width: 1200px) {
+  .tab__content {
+    padding: 0;
+  }
+
+  .tab__content:hover {
+    width: 100%;
+    height: auto;
+  }
 }

@@ -1,4 +1,11 @@
 .tab__image {
   height: 12em;
-  margin: 0 auto;
+  margin: 0.1em auto 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .tab__image {
+    width: 100%;
+    height: auto;
+  }
 }
