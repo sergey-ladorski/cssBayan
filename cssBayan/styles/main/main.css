@@ -6,6 +6,11 @@
   font-size: 1.4em;
 }
 
+@media screen and (max-width: 1200px) {
+  .main {
+    font-size: 1.3em;
+  }
+}
 @media screen and (max-width: 1000px) {
   .main {
     font-size: 1.2em;

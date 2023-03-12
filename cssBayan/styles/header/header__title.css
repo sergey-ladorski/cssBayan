@@ -6,11 +6,18 @@
   flex-shrink: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .header__title {
     font-size: 1.8em;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .header__title {
+    font-size: 1.7em;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .header__title {
     font-size: 1.5em;
