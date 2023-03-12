@@ -1,5 +1,8 @@
 :root {
   --color-dark: #2c3e50;
+  --color-light-dark: #556c83;
+  --color-medium-dark: #a168af;
   --color-light: #ecf0f1;
+  --color-medium: #e0ce98;
   --color-highlight: #ffc107;
 }

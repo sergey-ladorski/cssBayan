@@ -5,14 +5,27 @@
   gap: 0 1em;
   background: var(--color-dark);
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-.tab__label:hover {
-  background: var(--color-dark);
+.tab__label:has(.tab__input:active) {
+  color: var(--color-highlight);
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.tab__label:has(.tab__input:checked) {
+  color: var(--color-highlight);
 }
 
 @media screen and (max-width: 1200px) {
   .tab__label {
     border-radius: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tab-list:hover .tab__label:has(.tab__input:not(:checked)) {
+    color: var(--color-medium);
   }
 }

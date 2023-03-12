@@ -6,11 +6,23 @@
   background-position: center;
   background-size: 1em;
   background-repeat: no-repeat;
+  visibility: visible;
+  opacity: 1;
   transition: all 0.5s ease;
 }
 
-.tab__label:has(> .tab__content:hover) > .tab__icon,
-.tab__label:has(> .tab__input:checked) > .tab__icon,
-.tab__label:has(> .tab__input:hover) .tab__icon {
+.tab__label:has(> .tab__input:checked) > .tab__icon {
   transform: rotate(90deg);
+}
+
+@media screen and (min-width: 1024px) {
+  .tab__label:has(> .tab__content:hover) > .tab__icon,
+  .tab__label:has(> .tab__input:hover) .tab__icon {
+    transform: rotate(90deg);
+  }
+
+  .tab-list:not(:hover) .tab__icon {
+    visibility: hidden;
+    opacity: 0;
+  }
 }

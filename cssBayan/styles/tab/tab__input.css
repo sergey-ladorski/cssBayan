@@ -4,7 +4,12 @@
   clip-path: polygon(0 0);
 }
 
-.tab__input:checked + .tab__content,
-.tab__input:hover + .tab__content {
+.tab__input:checked + .tab__content {
   max-height: 100vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .tab__input:hover + .tab__content {
+    max-height: 100vh;
+  }
 }

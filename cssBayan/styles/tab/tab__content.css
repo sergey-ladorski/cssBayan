@@ -10,17 +10,19 @@
   grid-column-end: 3;
 }
 
-.tab__content:hover {
-  max-height: 15em;
-}
-
 @media screen and (max-width: 1200px) {
   .tab__content {
     padding: 0;
   }
 
-  .tab__content:hover {
+  .tab__content {
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tab__content:hover {
+    max-height: 15em;
   }
 }

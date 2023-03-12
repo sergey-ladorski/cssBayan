@@ -24,8 +24,14 @@
   justify-self: start;
 }
 
-.footer__link:hover {
-  color: var(--color-highlight);
+@media screen and (min-width: 1024px) {
+  .footer__link:hover {
+    color: var(--color-medium);
+  }
+
+  .footer__link:active {
+    color: var(--color-highlight);
+  }
 }
 
 .footer__year {
@@ -44,7 +50,6 @@
     border-radius: 0;
   }
 }
-
 
 @media screen and (max-width: 1000px) {
   .footer {
