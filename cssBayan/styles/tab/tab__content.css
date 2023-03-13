@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px), (hover: hover) {
   .tab__content:hover {
     max-height: 15em;
   }

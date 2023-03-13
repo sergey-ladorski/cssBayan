@@ -4,7 +4,6 @@
   grid-template-columns: 1fr 3em;
   gap: 0 1em;
   background: var(--color-dark);
-  cursor: pointer;
   transition: all 0.5s ease;
 }
 
@@ -24,7 +23,10 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px), (hover: hover) {
+  .tab__label {
+    cursor: pointer;
+  }
   .tab-list:hover .tab__label:has(.tab__input:not(:checked)) {
     color: var(--color-medium);
   }

@@ -24,7 +24,7 @@
   justify-self: start;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px), (hover: hover) {
   .footer__link:hover {
     color: var(--color-medium);
   }

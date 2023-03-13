@@ -8,7 +8,7 @@
   max-height: 100vh;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px), (hover: hover) {
   .tab__input:hover + .tab__content {
     max-height: 100vh;
   }
