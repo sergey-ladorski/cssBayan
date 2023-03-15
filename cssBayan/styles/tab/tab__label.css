@@ -1,0 +1,33 @@
+.tab__label {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3em;
+  gap: 0 1em;
+  background: var(--color-dark);
+  transition: all 0.5s ease;
+}
+
+.tab__label:active {
+  color: var(--color-highlight);
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.tab__label:has(.tab__input:checked) {
+  color: var(--color-highlight);
+}
+
+@media screen and (max-width: 1200px) {
+  .tab__label {
+    border-radius: 0;
+  }
+}
+
+@media screen and (hover: hover) {
+  .tab__label {
+    cursor: pointer;
+  }
+  .tab-list:hover .tab__label:has(.tab__input:not(:checked)) {
+    color: var(--color-medium);
+  }
+}

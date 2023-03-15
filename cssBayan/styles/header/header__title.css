@@ -1,0 +1,25 @@
+.header__title {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__title {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__title {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__title {
+    font-size: 1.5em;
+  }
+}

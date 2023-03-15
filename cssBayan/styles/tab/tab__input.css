@@ -1,0 +1,15 @@
+.tab__input {
+  width: 0;
+  height: 0;
+  clip-path: polygon(0 0);
+}
+
+.tab__input:checked + .tab__content {
+  max-height: 100vh;
+}
+
+@media screen and (hover: hover) {
+  .tab__input:hover + .tab__content {
+    max-height: 100vh;
+  }
+}

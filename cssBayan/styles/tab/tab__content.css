@@ -1,0 +1,28 @@
+.tab__content {
+  max-height: 0;
+  display: flex;
+  background: white;
+  color: var(--color-dark);
+  transition: all 0.5s ease;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media screen and (max-width: 1200px) {
+  .tab__content {
+    padding: 0;
+  }
+
+  .tab__content {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (hover: hover) {
+  .tab__content:hover {
+    max-height: 15em;
+  }
+}

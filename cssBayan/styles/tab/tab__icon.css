@@ -1,0 +1,28 @@
+.tab__icon {
+  padding: 1em;
+  width: 1em;
+  height: 1em;
+  background: url(../../assets/images/right-arrow.png);
+  background-position: center;
+  background-size: 1em;
+  background-repeat: no-repeat;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.tab__label:has(> .tab__input:checked) > .tab__icon {
+  transform: rotate(90deg);
+}
+
+@media screen and (hover: hover) {
+  .tab__label:has(> .tab__content:hover) > .tab__icon,
+  .tab__label:has(> .tab__input:hover) .tab__icon {
+    transform: rotate(90deg);
+  }
+
+  .tab-list:not(:hover) .tab__icon {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
