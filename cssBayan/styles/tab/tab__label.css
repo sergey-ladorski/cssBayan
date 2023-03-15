@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (hover: hover) {
+@media screen and (hover: hover) {
   .tab__label {
     cursor: pointer;
   }
